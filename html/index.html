@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="C'est mon portfolio">
+    <title>Mon portfolio</title>
+    <link rel="stylesheet" href="../styles/styles.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div id="home" class="slider" >
+            <i class="fa-solid fa-bars" id="menu"></i>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#propos">A propos</a></li>
+                    <li><a href="#competence">Compétence</a></li>
+                    <li><a href="#realisation">Réalisation</a></li>
+                    <li><a href="#CV">Mon CV</a></li>
+                </ul>   
+            </nav>
+        
+            <img src="../img/bckimage.jpg" class="slider-background" alt="slider-background">
+            <div class="slider-content">
+                <h1>Tsiferana Randriamampianina</h1>
+                <p>Je suis développeur front-end</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section" id="propos">
+            <div class="boxed">
+                <div class="flex">
+                    <div class="w40">
+                        <h2>A propos de moi</h2>
+                    </div>
+                    <div class="w60">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil alias saepe rerum recusandae, est eligendi praesentium ad, natus beatae distinctio necessitatibus iure doloremque ipsam voluptatum velit, illo ea doloribus tempore.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section dark" id="competence">
+            <div class="boxed text-center">
+                <h2>Découvrez mes compétences</h2>
+                <div class="flex">
+                    <div class="w25">
+                        <img src="../img/html.png" alt="">
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="w25">
+                        <img src="../img/css.png" alt="">
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="w25">
+                        <img src="../img/inkscape.png" alt="">
+                        <h3>Inkscape</h3>
+                    </div>
+                    <div class="w25">
+                        <img src="../img/js.png" alt="">
+                        <h3>Javascript</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section bluecian" id="realisation">
+            <div class="boxed text-centers">
+                <h2>Mes réalisations</h2>
+                <div class="flex">
+                    <div class="w33 git">
+                        <a class="lien" href="https://tsifcarnage.github.io/" target="_blank" >Formulaire</a>
+                    </div>
+                    <div class="w33">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/OsKRA3uli8w?si=h-OU0mXEJaI9vJqG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 15px;"></iframe>
+                    </div>
+                    <div class="w33 git">
+                        <a class="lien" href="https://tsifcarnage.github.io/the-dom/" target="_blank">DOM</a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="section" id="CV">
+            <div class="marron">
+                <h2>Mon CV</h2>
+                <i class="fa-solid fa-arrow-right"></i>
+                <a href="../img/cvtsiferana2025.pdf" target="_blank">Cliquer ici</a>
+                <div class="adress">
+                    <h2>Mon adresse</h2>
+                    <i class="fa-solid fa-arrow-right"></i>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.4147735684187!2d5.612259712227801!3d50.059793415296156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c03cd9b175bdc3%3A0x2eb13e99d2b95f75!2sGIVROULLE%20Eglise!5e0!3m2!1sfr!2sbe!4v1729596671446!5m2!1sfr!2sbe" width="600" height="300" style="border:0;;border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="section dark">
+        <h2>Mes réseaux</h2>
+        <ul class="footer-container">
+            <li><a href="https://www.facebook.com/profile.php?id=100004281137221&locale=fr_FR" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/tsifcarnage/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/@Tsifcarnage" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="https://open.spotify.com/user/31kmu5hdv6upohn4cxmgdfeg7g7i?si=c3bc8ed65910418c" target="_blank"><i class="fa-brands fa-spotify"></i></a></li>
+            <li><a href="https://github.com/tsifcarnage" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+    </footer>
+    <script defer src="../js/app.js"></script>
+</body>
+</html>
