@@ -207,4 +207,7 @@ footer h2 {
   h1{
     font-size: 2rem;
   }
+  nav>ul{
+    flex-wrap: wrap;
+  }
 }
