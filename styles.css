@@ -63,6 +63,7 @@ p {
 .flex {
   display: flex;
   justify-content: center;
+  /*flex-wrap: wrap;*/
 }
 .dark {
   background: #000;
@@ -158,6 +159,7 @@ nav ul a {
   align-items: baseline;
   padding: 15px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .fa-arrow-right {
   font-size: 50px;
@@ -173,10 +175,12 @@ nav ul a {
 }
 .adress {
   display: flex;
+  flex-wrap: wrap;
   padding-left: 50px;
 }
 .footer-container {
   display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   justify-content: space-evenly;
 }
@@ -204,10 +208,5 @@ footer h2 {
   display: none;
 }
 @media (max-width: 800px) {
-  h1{
-    font-size: 2rem;
-  }
-  nav>ul{
-    flex-wrap: wrap;
-  }
+  
 }
